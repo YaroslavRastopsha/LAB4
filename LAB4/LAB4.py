@@ -33,4 +33,17 @@ count_of_the = replaced_text.count("the")
 print("Capitalized text:", capitalized_text)
 print("Index of 'cat':", index_of_cat)
 print("Count of 'the':", count_of_the)
+#Зробив Узжин Роман КН-33
+#8. Replace all occurrences of 'ukraine' with 'country'
+replaced_ukraine_text = replaced_text.replace("ukraine", "country")
+
+# 9. Count the number of words in the text
+word_count = len(words_list)
+
+# 10. Check if all words consist only of letters
+all_words_are_alpha = all(word.isalpha() for word in words_list)
+
+print("Text with 'Ukraine' replaced by 'country':", replaced_ukraine_text)
+print("Word count:", word_count)
+print("All words consist only of letters:", all_words_are_alpha)
 
