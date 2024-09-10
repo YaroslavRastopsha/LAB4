@@ -21,4 +21,16 @@ print("Lowercase text:", lowercase_text)
 print("Text without punctuation:", no_punctuation_text)
 print("List of words:", words_list)
 print("Replaced text:", replaced_text)
+# Зробив Григоренко Максим  КН33
+# 4. Перетворюємо перше слово на велике, інші на малі
+capitalized_text = replaced_text.capitalize()
+
+# 5. Шукаємо перше входження слова "cat" в тексті
+index_of_cat = replaced_text.find("cat")
+
+# 6. Рахуємо кількість входжень слова "the" в тексті
+count_of_the = replaced_text.count("the")
+print("Capitalized text:", capitalized_text)
+print("Index of 'cat':", index_of_cat)
+print("Count of 'the':", count_of_the)
 
