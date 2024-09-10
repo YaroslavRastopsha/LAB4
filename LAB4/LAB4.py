@@ -1,3 +1,4 @@
+# Зробив Растопша Ярослав КН33
 import string
 
 # Original text
