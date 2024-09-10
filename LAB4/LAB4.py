@@ -47,3 +47,17 @@ print("Text with 'Ukraine' replaced by 'country':", replaced_ukraine_text)
 print("Word count:", word_count)
 print("All words consist only of letters:", all_words_are_alpha)
 
+# Зробив Головенко Марк  КН33
+# 11. Використовуємо string.capwords для перетворення тексту на формат заголовка
+capwords_text = string.capwords(no_punctuation_text)
+
+# 12. Використовуємо string.Template для роботи з шаблоном
+template = string.Template("The $animal jumps over the $object.")
+template_text = template.substitute(animal="cat", object="moon")
+
+# 13. Використовуємо string.hexdigits для отримання всіх шістнадцяткових цифр
+hexdigits = string.hexdigits
+
+print("Capwords text:", capwords_text)
+print("Template text:", template_text)
+print("Hexadecimal digits:", hexdigits)
