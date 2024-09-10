@@ -1,6 +1,5 @@
 # Зробив Растопша Ярослав КН33
 import string
-k;;
 
 # Original text
 text = "Glukhiv is a small town in northern Ukraine with a rich historical heritage. In the 18th century, it served as the capital of Left-Bank Ukraine and was known as a cultural and educational center of that time. Glukhiv played a significant role in the development of Ukrainian culture and science. Today, the town preserves many architectural monuments, including the Transfiguration Church and St. Nicholas Cathedral. It is also known for its educational institutions, with Glukhiv National Pedagogical University named after Oleksandr Dovzhenko being one of the oldest universities in Ukraine."
